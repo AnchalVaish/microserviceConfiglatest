@@ -1,4 +1,7 @@
 #This is default file that will be fetched in case of no specification .This is different from application-local.yml
+spring:
+  application:
+    name: dev
 eureka:
   client:
     register-with-eureka: true  #true because userservice is eureka client and needs to register on service registry
